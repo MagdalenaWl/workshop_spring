@@ -40,8 +40,9 @@ public class BookController {
     }
 
     @PostMapping("")
-    public void add(@RequestParam String isbn, @RequestParam String title, @RequestParam String author, @RequestParam String publisher, @RequestParam String type) {
+    public String add(@RequestParam String isbn, @RequestParam String title, @RequestParam String author, @RequestParam String publisher, @RequestParam String type) {
         service.add(new Book(isbn, title, author, publisher, type));
+        return "<a href=\"/\">home</a>";
     }
 
 

@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<style><%@include file="/css/style.css"%></style>
+
 <html>
 <head>
     <title>Add Book</title>
