@@ -1,0 +1,4 @@
+curl -X PUT -i -H "Content-Type: application/json" -d  '{"id":1,"isbn":"32222","title":"Thinking in C#", "author":"Bruce Eckel",  "publisher":"IT Books","type":"programming"}' http://localhost:8080/books
+
+
+curl -X DELETE -i  http://localhost:8080/books/1
